@@ -1,0 +1,15 @@
+1. git init - initialize git, Initialized empty Git repository in /Users/marvolo/Documents/Lucid/Supplier Portal/Web Development/Story/.git/ (locally/working directory)
+
+You need to check this using $ls -a
+
+In order to start tracking the changes of my files, for example chapter1.txt, then I need to add this file to what's called a staging area. And that is basically a intermediate place where you can pick and choose which files inside your working directory that you want to commit.
+
+2. git status - to see what's currently inside your staging area, if the file name is red, that means they're only in the current working directory but not in the staging area.
+
+3. git add chapter1.txt (file name) - add it to the staging area and to start tracking changes in it 
+
+git add . - everything inside the current directory 
+
+4. git commit -m "XXXX" - this is now in the staging area and it's ready to be committed
+
+5. git log - what commits you have made
